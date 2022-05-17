@@ -1,6 +1,3 @@
-const { Socket } = require('dgram');
-const req = require('express/lib/request');
-const res = require('express/lib/response');
 const http = require('http');
 const server = http.createServer((req,res)=>{
     if(req.url==='/'){
